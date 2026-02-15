@@ -1,0 +1,25 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "ivi-studio",
+  "description": "IVI Studio private plugins for game development, testing, and automation",
+  "owner": {
+    "name": "IVI Studio",
+    "email": "a.v.budkov@gmail.com"
+  },
+  "plugins": [
+    {
+      "name": "game-test",
+      "description": "AI-driven game testing with TITAN-inspired agent architecture. Automates Unity game testing via HTTP Bridge SDK — state inspection, action scripting, coverage tracking, visual regression, and autonomous exploration.",
+      "version": "0.1.0",
+      "author": {
+        "name": "IVI Studio"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/iVintik/game_test.git"
+      },
+      "category": "testing",
+      "homepage": "https://github.com/iVintik/game_test"
+    }
+  ]
+}
