@@ -36,18 +36,46 @@
       "homepage": "https://github.com/iVintik/claude-plugin-ops"
     },
     {
-      "name": "toolkit",
+      "name": "clawrig-toolkit",
       "description": "One-command setup for essential Claude Code tools — Context7, Serena, Beads, beads-ui",
       "version": "1.0.0",
       "author": {
-        "name": "iVintik"
+        "name": "ClawRig"
       },
       "source": {
         "source": "url",
-        "url": "https://github.com/iVintik/claude-plugin-toolkit.git"
+        "url": "https://github.com/clawrig/toolkit.git"
       },
       "category": "development",
-      "homepage": "https://github.com/iVintik/claude-plugin-toolkit"
+      "homepage": "https://github.com/clawrig/toolkit"
+    },
+    {
+      "name": "clawrig-atlas",
+      "description": "Project registry & awareness across all Claude sessions — discover, cache, and serve project metadata",
+      "version": "0.1.0",
+      "author": {
+        "name": "ClawRig"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/clawrig/atlas.git"
+      },
+      "category": "development",
+      "homepage": "https://github.com/clawrig/atlas"
+    },
+    {
+      "name": "clawrig-relay",
+      "description": "Cross-project issue routing & work handoff — route issues to GitHub/GitLab/Jira, transfer work between sessions and people",
+      "version": "0.1.0",
+      "author": {
+        "name": "ClawRig"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/clawrig/relay.git"
+      },
+      "category": "development",
+      "homepage": "https://github.com/clawrig/relay"
     }
   ]
 }
