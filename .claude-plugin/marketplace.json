@@ -20,6 +20,20 @@
       },
       "category": "testing",
       "homepage": "https://github.com/iVintik/game_test"
+    },
+    {
+      "name": "claude-plugin-ops",
+      "description": "Plugin lifecycle management — issue tracking, health audits, optimization, fixing, releasing, and marketplace operations for Claude Code plugins",
+      "version": "1.0.0",
+      "author": {
+        "name": "iVintik"
+      },
+      "source": {
+        "source": "github",
+        "repo": "iVintik/claude-plugin-ops"
+      },
+      "category": "development",
+      "homepage": "https://github.com/iVintik/claude-plugin-ops"
     }
   ]
 }
