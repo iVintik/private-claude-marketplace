@@ -34,6 +34,20 @@
       },
       "category": "development",
       "homepage": "https://github.com/iVintik/claude-plugin-ops"
+    },
+    {
+      "name": "toolkit",
+      "description": "One-command setup for essential Claude Code tools — Context7, Serena, Beads, beads-ui, BMAD-METHOD",
+      "version": "1.0.0",
+      "author": {
+        "name": "iVintik"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/iVintik/claude_plugin_toolkit.git"
+      },
+      "category": "development",
+      "homepage": "https://github.com/iVintik/claude_plugin_toolkit"
     }
   ]
 }
