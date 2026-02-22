@@ -7,7 +7,7 @@ Private plugin marketplace for IVI Studio game development tools.
 Add this marketplace to Claude Code:
 
 ```bash
-/plugin marketplace add iVintik/private_claude_marketplace
+/plugin marketplace add iVintik/private-claude-marketplace
 ```
 
 ## Available Plugins

@@ -16,10 +16,10 @@
       },
       "source": {
         "source": "url",
-        "url": "https://github.com/iVintik/game_test.git"
+        "url": "https://github.com/iVintik/game-test.git"
       },
       "category": "testing",
-      "homepage": "https://github.com/iVintik/game_test"
+      "homepage": "https://github.com/iVintik/game-test"
     },
     {
       "name": "claude-plugin-ops",
@@ -44,10 +44,10 @@
       },
       "source": {
         "source": "url",
-        "url": "https://github.com/iVintik/claude_plugin_toolkit.git"
+        "url": "https://github.com/iVintik/claude-plugin-toolkit.git"
       },
       "category": "development",
-      "homepage": "https://github.com/iVintik/claude_plugin_toolkit"
+      "homepage": "https://github.com/iVintik/claude-plugin-toolkit"
     }
   ]
 }
