@@ -51,8 +51,8 @@
     },
     {
       "name": "clawrig-atlas",
-      "description": "Project registry & awareness across all Claude sessions — discover, cache, and serve project metadata",
-      "version": "0.1.0",
+      "description": "Project registry & awareness across all Claude sessions \u2014 discover, cache, and serve project metadata via MCP tools",
+      "version": "0.2.0",
       "author": {
         "name": "ClawRig"
       },
