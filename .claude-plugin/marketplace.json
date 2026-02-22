@@ -29,8 +29,8 @@
         "name": "iVintik"
       },
       "source": {
-        "source": "github",
-        "repo": "iVintik/claude-plugin-ops"
+        "source": "url",
+        "url": "https://github.com/iVintik/claude-plugin-ops.git"
       },
       "category": "development",
       "homepage": "https://github.com/iVintik/claude-plugin-ops"
