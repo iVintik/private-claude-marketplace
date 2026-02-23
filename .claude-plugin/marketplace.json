@@ -9,7 +9,7 @@
   "plugins": [
     {
       "name": "game-test",
-      "description": "AI-driven game testing with TITAN-inspired agent architecture. Automates Unity game testing via HTTP Bridge SDK — state inspection, action scripting, coverage tracking, visual regression, and autonomous exploration.",
+      "description": "AI-driven game testing with TITAN-inspired agent architecture. Automates Unity game testing via HTTP Bridge SDK \u2014 state inspection, action scripting, coverage tracking, visual regression, and autonomous exploration.",
       "version": "0.1.0",
       "author": {
         "name": "iVintik"
@@ -23,8 +23,8 @@
     },
     {
       "name": "plugin-ops",
-      "description": "Plugin lifecycle management — issue tracking, health audits, optimization, fixing, releasing, and marketplace operations for Claude Code plugins",
-      "version": "1.3.0",
+      "description": "Plugin lifecycle management \u2014 issue tracking, health audits, optimization, fixing, releasing, and marketplace operations for Claude Code plugins",
+      "version": "1.4.0",
       "author": {
         "name": "iVintik"
       },
@@ -37,7 +37,7 @@
     },
     {
       "name": "clawrig-toolkit",
-      "description": "One-command setup for essential Claude Code tools — Context7, Serena, Beads, beads-ui",
+      "description": "One-command setup for essential Claude Code tools \u2014 Context7, Serena, Beads, beads-ui",
       "version": "1.0.0",
       "author": {
         "name": "ClawRig"
@@ -51,7 +51,7 @@
     },
     {
       "name": "clawrig-atlas",
-      "description": "Project registry & awareness across all Claude sessions — discover, cache, and serve project metadata via MCP tools",
+      "description": "Project registry & awareness across all Claude sessions \u2014 discover, cache, and serve project metadata via MCP tools",
       "version": "0.2.0",
       "author": {
         "name": "ClawRig"
@@ -65,7 +65,7 @@
     },
     {
       "name": "clawrig-relay",
-      "description": "Cross-project issue routing & work handoff — route issues to GitHub/GitLab/Jira, transfer work between sessions and people",
+      "description": "Cross-project issue routing & work handoff \u2014 route issues to GitHub/GitLab/Jira, transfer work between sessions and people",
       "version": "0.2.0",
       "author": {
         "name": "ClawRig"
