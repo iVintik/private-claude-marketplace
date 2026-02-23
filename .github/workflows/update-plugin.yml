@@ -1,0 +1,42 @@
+name: Update plugin version
+
+on:
+  repository_dispatch:
+    types: [plugin-release]
+
+# Expected client_payload:
+#   { "plugin": "relay", "version": "0.3.0" }
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate payload
+        run: |
+          if [ -z "${{ github.event.client_payload.plugin }}" ] || [ -z "${{ github.event.client_payload.version }}" ]; then
+            echo "::error::Missing plugin or version in client_payload"
+            exit 1
+          fi
+          echo "Updating ${{ github.event.client_payload.plugin }} to v${{ github.event.client_payload.version }}"
+
+      - name: Update marketplace.json
+        run: |
+          jq --arg name "${{ github.event.client_payload.plugin }}" \
+             --arg ver "${{ github.event.client_payload.version }}" \
+             '(.plugins[] | select(.name == $name)).version = $ver' \
+             .claude-plugin/marketplace.json > tmp.json
+          mv tmp.json .claude-plugin/marketplace.json
+
+      - name: Commit and push
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .claude-plugin/marketplace.json
+          if git diff --cached --quiet; then
+            echo "No changes — plugin may not be listed or version already matches"
+          else
+            git commit -m "release: ${{ github.event.client_payload.plugin }} v${{ github.event.client_payload.version }}"
+            git push
+          fi
