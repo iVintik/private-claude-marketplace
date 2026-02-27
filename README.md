@@ -72,8 +72,8 @@ Each plugin repo needs two secrets:
 
 Set them:
 ```bash
-gh secret set NPM_TOKEN --repo clawrig/<plugin>
-gh secret set MARKETPLACE_TOKEN --repo clawrig/<plugin>
+gh secret set NPM_TOKEN --repo clawrig/famdeck-<plugin>
+gh secret set MARKETPLACE_TOKEN --repo clawrig/famdeck-<plugin>
 ```
 
 The same `MARKETPLACE_TOKEN` PAT can be shared across all plugin repos.
@@ -101,17 +101,17 @@ The same `MARKETPLACE_TOKEN` PAT can be shared across all plugin repos.
 - Update the secret on all affected repos:
   ```bash
   # Renew MARKETPLACE_TOKEN on all plugin repos at once
-  gh secret set MARKETPLACE_TOKEN --repo clawrig/relay
-  gh secret set MARKETPLACE_TOKEN --repo clawrig/atlas
-  gh secret set MARKETPLACE_TOKEN --repo clawrig/toolkit
+  gh secret set MARKETPLACE_TOKEN --repo clawrig/famdeck-relay
+  gh secret set MARKETPLACE_TOKEN --repo clawrig/famdeck-atlas
+  gh secret set MARKETPLACE_TOKEN --repo clawrig/famdeck-toolkit
   ```
 
 ### Plugin Repos Using This Workflow
 
 | Repo | Plugin name in marketplace |
 |------|---------------------------|
-| `clawrig/relay` | `clawrig-relay` |
-| `clawrig/atlas` | `clawrig-atlas` |
+| `clawrig/famdeck-relay` | `famdeck-relay` |
+| `clawrig/famdeck-atlas` | `famdeck-atlas` |
 
 ## Adding New Plugins
 

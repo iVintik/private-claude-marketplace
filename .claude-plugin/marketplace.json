@@ -36,46 +36,46 @@
       "homepage": "https://github.com/iVintik/claude-plugin-ops"
     },
     {
-      "name": "clawrig-toolkit",
+      "name": "famdeck-toolkit",
       "description": "One-command setup for essential Claude Code tools \u2014 Context7, Serena, Beads, beads-ui",
       "version": "1.0.0",
       "author": {
-        "name": "ClawRig"
+        "name": "Famdeck"
       },
       "source": {
         "source": "url",
-        "url": "https://github.com/clawrig/toolkit.git"
+        "url": "https://github.com/clawrig/famdeck-toolkit.git"
       },
       "category": "development",
-      "homepage": "https://github.com/clawrig/toolkit"
+      "homepage": "https://github.com/clawrig/famdeck-toolkit"
     },
     {
-      "name": "clawrig-atlas",
+      "name": "famdeck-atlas",
       "description": "Project registry & awareness across all Claude sessions \u2014 discover, cache, and serve project metadata via MCP tools",
       "version": "0.2.0",
       "author": {
-        "name": "ClawRig"
+        "name": "Famdeck"
       },
       "source": {
         "source": "url",
-        "url": "https://github.com/clawrig/atlas.git"
+        "url": "https://github.com/clawrig/famdeck-atlas.git"
       },
       "category": "development",
-      "homepage": "https://github.com/clawrig/atlas"
+      "homepage": "https://github.com/clawrig/famdeck-atlas"
     },
     {
-      "name": "clawrig-relay",
+      "name": "famdeck-relay",
       "description": "Cross-project issue routing & work handoff \u2014 route issues to GitHub/GitLab/Jira, transfer work between sessions and people",
       "version": "0.2.0",
       "author": {
-        "name": "ClawRig"
+        "name": "Famdeck"
       },
       "source": {
         "source": "url",
-        "url": "https://github.com/clawrig/relay.git"
+        "url": "https://github.com/clawrig/famdeck-relay.git"
       },
       "category": "development",
-      "homepage": "https://github.com/clawrig/relay"
+      "homepage": "https://github.com/clawrig/famdeck-relay"
     }
   ]
 }
