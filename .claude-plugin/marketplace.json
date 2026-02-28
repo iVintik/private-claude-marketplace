@@ -44,10 +44,10 @@
       },
       "source": {
         "source": "url",
-        "url": "https://github.com/clawrig/famdeck-toolkit.git"
+        "url": "https://github.com/famdeck/famdeck-toolkit.git"
       },
       "category": "development",
-      "homepage": "https://github.com/clawrig/famdeck-toolkit"
+      "homepage": "https://github.com/famdeck/famdeck-toolkit"
     },
     {
       "name": "famdeck-atlas",
@@ -58,10 +58,10 @@
       },
       "source": {
         "source": "url",
-        "url": "https://github.com/clawrig/famdeck-atlas.git"
+        "url": "https://github.com/famdeck/famdeck-atlas.git"
       },
       "category": "development",
-      "homepage": "https://github.com/clawrig/famdeck-atlas"
+      "homepage": "https://github.com/famdeck/famdeck-atlas"
     },
     {
       "name": "famdeck-relay",
@@ -72,10 +72,10 @@
       },
       "source": {
         "source": "url",
-        "url": "https://github.com/clawrig/famdeck-relay.git"
+        "url": "https://github.com/famdeck/famdeck-relay.git"
       },
       "category": "development",
-      "homepage": "https://github.com/clawrig/famdeck-relay"
+      "homepage": "https://github.com/famdeck/famdeck-relay"
     }
   ]
 }
