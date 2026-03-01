@@ -64,6 +64,20 @@
       "homepage": "https://github.com/famdeck/famdeck-atlas"
     },
     {
+      "name": "famdeck",
+      "description": "Autonomous development toolkit \u2014 autopilot, quality gates, story validation, autonomy assessment",
+      "version": "0.1.0",
+      "author": {
+        "name": "Famdeck"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/famdeck/famdeck.git"
+      },
+      "category": "development",
+      "homepage": "https://github.com/famdeck/famdeck"
+    },
+    {
       "name": "famdeck-relay",
       "description": "Cross-project issue routing & work handoff \u2014 route issues to GitHub/GitLab/Jira, transfer work between sessions and people",
       "version": "0.2.0",
