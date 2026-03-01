@@ -37,8 +37,8 @@
     },
     {
       "name": "famdeck-toolkit",
-      "description": "One-command setup for essential Claude Code tools — Context7, Serena, Beads, beads-ui",
-      "version": "1.0.0",
+      "description": "Setup and project init for Claude Code tools — Context7, Serena, Beads, Agent Mail, Atlas, Relay, Codeman",
+      "version": "2.5.0",
       "author": {
         "name": "Famdeck"
       },
@@ -52,7 +52,7 @@
     {
       "name": "famdeck-atlas",
       "description": "Project registry & awareness across all Claude sessions — discover, cache, and serve project metadata via MCP tools",
-      "version": "0.2.0",
+      "version": "0.5.2",
       "author": {
         "name": "Famdeck"
       },
@@ -66,7 +66,7 @@
     {
       "name": "famdeck",
       "description": "Autonomous development toolkit — autopilot, quality gates, story validation, autonomy assessment",
-      "version": "0.2.0",
+      "version": "0.5.0",
       "author": {
         "name": "Famdeck"
       },
@@ -80,7 +80,7 @@
     {
       "name": "famdeck-relay",
       "description": "Cross-project issue routing & work handoff — route issues to GitHub/GitLab/Jira, transfer work between sessions and people",
-      "version": "0.2.0",
+      "version": "0.6.0",
       "author": {
         "name": "Famdeck"
       },
