@@ -38,7 +38,7 @@
     {
       "name": "famdeck-toolkit",
       "description": "Setup and project init for Claude Code tools — Context7, Serena, Beads, Agent Mail, Atlas, Relay, Codeman",
-      "version": "2.5.0",
+      "version": "2.6.1",
       "author": {
         "name": "Famdeck"
       },
