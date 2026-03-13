@@ -1,4 +1,4 @@
-# IVI Studio — Private Claude Code Marketplace
+# iVintik Private Claude Code Marketplace
 
 Private plugin marketplace for IVI Studio game development tools.
 
