@@ -78,6 +78,20 @@
       "homepage": "https://github.com/famdeck/famdeck"
     },
     {
+      "name": "ai-game-engine",
+      "description": "Development toolkit for the AI Game Engine — ECS architecture, TypeScript scripting, scene design, testing, asset pipeline, introspection, and game design expertise for building 2D games with Bevy/Rust",
+      "version": "0.1.0",
+      "author": {
+        "name": "iVintik"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/iVintik/ai_game_engine.git"
+      },
+      "category": "development",
+      "homepage": "https://github.com/iVintik/ai_game_engine"
+    },
+    {
       "name": "famdeck-relay",
       "description": "Cross-project issue routing & work handoff — route issues to GitHub/GitLab/Jira, transfer work between sessions and people",
       "version": "0.6.0",
