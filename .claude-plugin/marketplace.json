@@ -108,7 +108,7 @@
     {
       "name": "codeharness",
       "description": "Makes autonomous coding agents produce software that actually works — real-world verification, observability, and mechanical enforcement via Claude Code hooks.",
-      "version": "0.32.0",
+      "version": "0.32.1",
       "author": {
         "name": "iVintik"
       },
