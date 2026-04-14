@@ -118,6 +118,20 @@
       },
       "category": "development",
       "homepage": "https://github.com/iVintik/codeharness"
+    },
+    {
+      "name": "ai-pkm",
+      "description": "Wraps the ai-pkm CLI as a Claude Code plugin — query, ingest, lint, and inspect a personal knowledge wiki via slash commands and an auto-triggering skill.",
+      "version": "0.1.0",
+      "author": {
+        "name": "iVintik"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/iVintik/ai-pkm.git"
+      },
+      "category": "productivity",
+      "homepage": "https://github.com/iVintik/ai-pkm"
     }
   ]
 }
