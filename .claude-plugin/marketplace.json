@@ -92,6 +92,20 @@
       "homepage": "https://github.com/iVintik/gamedev-kit"
     },
     {
+      "name": "generic-kit",
+      "description": "Generic personal toolkit. v0.1.0 ships the secrets category — dotenvx-based secret management with hierarchical .env resolution (home → project), single-master-key model, JSON export/import for vault round-tripping, and a one-shot keychain → dotenvx migrator.",
+      "version": "0.1.0",
+      "author": {
+        "name": "iVintik"
+      },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/iVintik/generic-kit.git"
+      },
+      "category": "productivity",
+      "homepage": "https://github.com/iVintik/generic-kit"
+    },
+    {
       "name": "famdeck-relay",
       "description": "Cross-project issue routing & work handoff — route issues to GitHub/GitLab/Jira, transfer work between sessions and people",
       "version": "0.6.0",
