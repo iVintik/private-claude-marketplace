@@ -94,7 +94,7 @@
     {
       "name": "generic-kit",
       "description": "Generic personal toolkit. v0.1.0 ships the secrets category — dotenvx-based secret management with hierarchical .env resolution (home → project), single-master-key model, JSON export/import for vault round-tripping, and a one-shot keychain → dotenvx migrator.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "iVintik"
       },
