@@ -80,7 +80,7 @@
     {
       "name": "gamedev-kit",
       "description": "Generic gamedev side-tooling — sound (freesound fetch, manifest-driven slicing, normalize) and image (info, chroma key, trim, sprite-sheet slice/pack, AI sprite-gen via banana). Category-first layout, CLI-driven, no MCP.",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "author": {
         "name": "iVintik"
       },
