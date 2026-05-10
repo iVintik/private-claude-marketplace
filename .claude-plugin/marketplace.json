@@ -78,18 +78,18 @@
       "homepage": "https://github.com/famdeck/famdeck"
     },
     {
-      "name": "ai-game-engine",
-      "description": "Development toolkit for the AI Game Engine — ECS architecture, TypeScript scripting, scene design, testing, asset pipeline, introspection, and game design expertise for building 2D games with Bevy/Rust",
+      "name": "gamedev-kit",
+      "description": "Generic gamedev side-tooling — sound (freesound fetch, manifest-driven slicing, normalize) and image (info, chroma key, trim, sprite-sheet slice/pack, AI sprite-gen via banana). Category-first layout, CLI-driven, no MCP.",
       "version": "0.1.0",
       "author": {
         "name": "iVintik"
       },
       "source": {
         "source": "url",
-        "url": "https://github.com/iVintik/ai_game_engine.git"
+        "url": "https://github.com/iVintik/gamedev-kit.git"
       },
       "category": "development",
-      "homepage": "https://github.com/iVintik/ai_game_engine"
+      "homepage": "https://github.com/iVintik/gamedev-kit"
     },
     {
       "name": "famdeck-relay",
