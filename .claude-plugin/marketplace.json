@@ -163,8 +163,8 @@
     },
     {
       "name": "improve-loop",
-      "description": "Multi-round autonomous improvement loop for a product: free critics on configured lenses, phase-aware triage, builders in parallel git worktrees, independent checks and verification, until every lens reaches the bar. Machinery only — product specifics live in each project's loop.config.json. Ships a PreToolUse guard against unscoped pkill/killall.",
-      "version": "0.1.0",
+      "description": "Builds and runs a multi-round product-quality loop: free critics on lenses you choose, phase map with backlog and progress, builders in parallel git worktrees, independent checks and verification, until every lens reaches the bar. Opus thinks, Sonnet builds (per-role overrides; Fable for creative work only on confirmation). Ships a PreToolUse guard against unscoped pkill/killall.",
+      "version": "0.2.0",
       "author": {
         "name": "iVintik"
       },
