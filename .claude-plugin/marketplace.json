@@ -164,7 +164,7 @@
     {
       "name": "improve-loop",
       "description": "Builds and runs a multi-round product-quality loop: free critics on lenses you choose, phase map with backlog and progress, builders in parallel git worktrees, independent checks and verification, until every lens reaches the bar. Opus thinks, Sonnet builds (per-role overrides; Fable for creative work only on confirmation). Ships a PreToolUse guard against unscoped pkill/killall.",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "author": {
         "name": "iVintik"
       },
